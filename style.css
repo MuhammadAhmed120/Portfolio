@@ -51,11 +51,11 @@ body{
         width: 0px;
     }
     40%{
-        width: 92%;
+        width: 100%;
         background: transparent;
     }
     100% {
-        width: 92%;
+        width: 100%;
         opacity: 1;
     }
 }
