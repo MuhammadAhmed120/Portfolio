@@ -6,6 +6,11 @@
     <title>Portfolio | Muhammad Ahmed</title>
     <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- font-family: 'Roboto Condensed', sans-serif; -->
+
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
@@ -21,7 +26,7 @@
         <div class="container-fluid">
             <span class="navbar-text" style="
             font-size: 20px;
-            color: white;">Resume</span>
+            color: white;">Portfolio</span>
             
             <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
                 data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
@@ -47,7 +52,7 @@
         <div class="bg-light shadow-3 p-4">
             <button class="btn btn-link btn-block border-bottom m-0" onclick="closeNavbar()"><a href="#home">Home</a></button>
             <button class="btn btn-link btn-block border-bottom m-0" onclick="closeNavbar()"><a href="#about">About Me</a></button>
-            <button class="btn btn-link btn-block m-0" onclick="closeNavbar()"><a href="">Projects</a></button>
+            <button class="btn btn-link btn-block m-0" onclick="closeNavbar()"><a href="#projects">Projects</a></button>
         </div>    
     </div>
 
@@ -69,12 +74,12 @@
 
     <div class="about" id="about">
         <h1 class="about-head">ABOUT 
-        <span style="color: #6a6aff;">ME</span>
+        <span style="color: orange;">ME</span>
         </h1>
 
         <div class="about-con">
             <div class="about-left">
-                <h2>Hi, I'm <span style="color: #6a6aff; font-weight: bold;">Muhammad Ahmed</span> a web developer with over 1.5 years of experience. I specialize in <em>HTML</em>, <em>CSS</em>, and <em>JavaScript</em>, and I love creating websites that look great and are easy to use.</h2>
+                <h2>Hi, I'm <span style="color: #6a6aff; font-weight: bold;">Muhammad Ahmed</span> a web developer with over 1.5 years of experience. I specialize in <em>HTML</em>, <em>CSS</em>, <em>Bootstrap</em> and <em>JavaScript</em>, and I love creating websites that look great and are easy to use.</h2>
             </div>
 
             <div class="about-right">
@@ -83,8 +88,8 @@
         </div>
 
         <h1 class="about-head"><span style="
-        color: #6a6aff;">SKILL</span> SET</h1>
-
+        color: yellow;">SKILL</span> SET</h1>
+        <h3 class="skill-h2">These are the skills I have learnt so far.</h3>
         <div class="skill-con">
             <div class="skill"><i class="fa-brands fa-html5"></i></div>
             <div class="skill"><i class="fa-brands fa-css3-alt"></i></div>
@@ -94,6 +99,20 @@
     </div>
 
 
+    <h1 id="projects" class="about-head" style="text-align: center; margin-top: 150px; color: #6a6aff;">Projects</h1>
+    <h3 class="skill-h2" style="text-align: center;">coming soon...</h3>
+    <div class="skill-con" style="margin-bottom: 150px;">
+        <div class="skill"></div>
+        <div class="skill"></div>
+        <div class="skill"></div>
+        <div class="skill"></div>
+    </div>
+
+    <footer>
+        <span class="h1-span">
+            This website is designed and developed by <a href="" style="text-decoration: underline; color: #6a6aff;">Muhammad Ahmed</a>.
+        </span>
+    </footer>
     <script>
         function closeNavbar() {
             var navbarToggle = document.querySelector('.navbar-toggler');
